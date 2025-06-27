@@ -28,5 +28,3 @@ app = graph.compile()
 
 user_input = input('Enter: ')
 result = app.invoke({'messages': [HumanMessage(content=user_input)]})
-
-print(result.content)
